@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\machiavelli\;CMake Files\networking\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Example">
+				<Option output="/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 Example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Example/fast">
+				<Option output="/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 Example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/bouwmeester.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/bouwmeester.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/building_card.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/building_card.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_deck.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_deck.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_deck_dialog.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_deck_dialog.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_manager.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/card_manager.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_action_turn.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_action_turn.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_card.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_card.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_card_factory.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_card_factory.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_iterator.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_iterator.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_pick_turn.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_pick_turn.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_setup_turn.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/character_setup_turn.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/client_info.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/client_info.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_builder.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_builder.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_error.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_error.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_handler.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/command_handler.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/condottiere.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/condottiere.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_document.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_document.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_field.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_field.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_record.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_record.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/csv_row.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/dialog.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/dialog.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/dief.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/dief.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_end.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_end.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_lobby.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_lobby.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_manager.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_manager.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_play.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_play.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_setup.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/game_state_setup.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/koning.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/koning.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/koopman.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/koopman.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/list_dialog.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/list_dialog.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/magier.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/magier.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/main.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/moordenaar.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/moordenaar.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/options.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/options.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/player.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/player.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/prediker.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/prediker.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/random_utils.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/random_utils.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/server.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/server.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/stats.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/stats.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/turn.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/turn.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/turn_manager.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/turn_manager.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/wallet.cpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/src/wallet.hpp">
+			<Option target="Example"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\machiavelli\"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/networking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\networking\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

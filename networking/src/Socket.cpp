@@ -7,8 +7,8 @@
 //=============================================================================
 
 
-#include "Socket.h"
-#include "throw.h"
+#include "networking/Socket.h"
+#include "networking/throw.h"
 #include <iostream>
 #include <string>
 #include <cstring>

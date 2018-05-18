@@ -1,4 +1,4 @@
-#include "logging.h"
+#include "networking/logging.h"
 
 namespace machiavelli
 {

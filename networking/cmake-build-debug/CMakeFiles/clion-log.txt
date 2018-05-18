@@ -1,0 +1,4 @@
+/private/var/folders/3s/yx7xjkhs6wv0_tkqcs_wjcw40000gn/T/AppTranslocation/8E8817CE-8E1E-4BFE-94DD-892AF2C3A9C7/d/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/rob/Projects/avans-cpp2/networking
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rob/Projects/avans-cpp2/networking/cmake-build-debug

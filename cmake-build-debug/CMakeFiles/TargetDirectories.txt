@@ -1,0 +1,8 @@
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/CMakeFiles/rebuild_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/CMakeFiles/edit_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/CMakeFiles/networking.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/CMakeFiles/rebuild_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/CMakeFiles/edit_cache.dir
+/Users/rob/Projects/avans-cpp2/cmake-build-debug/machiavelli/CMakeFiles/machiavelli.dir

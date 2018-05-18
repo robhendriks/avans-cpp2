@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="networking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\networking\;CMake Files\machiavelli\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="networking">
+				<Option output="/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/libnetworking.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/rob/Projects/avans-cpp2/networking/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 networking"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="networking/fast">
+				<Option output="/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/libnetworking.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/rob/Projects/avans-cpp2/networking/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 networking/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rob/Projects/avans-cpp2/cmake-build-debug/networking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/networking/src/Socket.cpp">
+			<Option target="networking"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/networking/src/logging.cpp">
+			<Option target="networking"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/networking/src/throw.cpp">
+			<Option target="networking"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/networking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\networking\"/>
+		</Unit>
+		<Unit filename="/Users/rob/Projects/avans-cpp2/machiavelli/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\machiavelli\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
