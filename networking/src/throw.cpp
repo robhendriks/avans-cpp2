@@ -9,7 +9,7 @@
 #include <system_error>
 using namespace std;
 
-#include "throw.h"
+#include "networking/throw.h"
 
 static string combine_message_elements(const char* file, unsigned int line, const char* user_message, const char* sys_message)
 {
